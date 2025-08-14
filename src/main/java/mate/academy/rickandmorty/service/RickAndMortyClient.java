@@ -37,7 +37,7 @@ public class RickAndMortyClient {
             return allCharacters;
 
         } catch (IOException | InterruptedException e) {
-            throw new RuntimeException("Couldn't get characters form API", e);
+            throw new RuntimeException("Couldn't get characters from API", e);
         }
     }
 }
